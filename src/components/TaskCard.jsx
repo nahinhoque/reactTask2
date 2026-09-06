@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FeedbackCard = ({ title }) => {
+const TaskCard = ({ title }) => {
     const [upvotes, setUpvotes] = useState(0);
     const [downvotes, setDownvotes] = useState(0);
 
@@ -39,4 +39,4 @@ const FeedbackCard = ({ title }) => {
     );
 };
 
-export default FeedbackCard;
+export default TaskCard;
